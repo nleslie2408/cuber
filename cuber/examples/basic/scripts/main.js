@@ -80,7 +80,7 @@
 $(document).ready( function(){ 
 
 
-	var useLockedControls = false,
+	var useLockedControls = true,
 		controls = useLockedControls ? ERNO.Locked : ERNO.Freeform;
 
 	var ua = navigator.userAgent,
